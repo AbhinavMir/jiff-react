@@ -1,13 +1,16 @@
 import React from 'react';
-import ConnectComponent from './ConnectComponent';
-import SumComponent from './SumComponent';
+import { ChakraProvider } from '@chakra-ui/react';
+import MPCForm from './MPCForm'; // Ensure this path is correct
 
 function App() {
   return (
-    <div className="App">
-      <ConnectComponent />
-      <SumComponent />
-    </div>
+    <ChakraProvider>
+      <div className="App">
+        <header className="App-header">
+          <MPCForm />
+        </header>
+      </div>
+    </ChakraProvider>
   );
 }
 
