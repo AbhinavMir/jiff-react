@@ -1,5 +1,5 @@
 // mpcCompute.js
-import mpc from 'jiff-mpc';
+import mpc from './mpc';
 
 export async function connectToServer(hostname, computationId) {
   // Connect to the server with given hostname and computationId
