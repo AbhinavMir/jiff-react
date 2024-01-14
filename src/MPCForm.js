@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Box, FormControl, FormLabel, Input, Button } from '@chakra-ui/react';
+import { mpcCompute } from './mpcCompute';
 
 function MPCForm() {
     const [input, setInput] = useState('');
