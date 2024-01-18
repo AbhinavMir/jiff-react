@@ -13,13 +13,7 @@ module.exports = {
           assert: require.resolve('assert/'),
           util: require.resolve('util/'),
           stream: require.resolve('stream-browserify'),
-          os: require.resolve('os-browserify/browser'),
-          constants: require.resolve('constants-browserify'),
-          vm: require.resolve('vm-browserify'),
-          fs: false,
-          child_process: false,
-          net: false,
-          tls: false,
+        
         }
       }
     }

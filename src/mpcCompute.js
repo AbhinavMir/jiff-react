@@ -1,19 +1,9 @@
-// mpcCompute.js
-import mpc from './mpc';
-
 export async function connectToServer(hostname, computationId) {
   // Connect to the server with given hostname and computationId
   // You might need to modify this depending on how your MPC library works
-  return mpc.connect(hostname, computationId);
+  return null;
 }
 
 export async function mpcCompute(input, partyCount, computationId) {
-  // Ensure connection is established
-  if (!mpc.isConnected()) {
-    await connectToServer('http://localhost:8080', computationId);
-  }
-
-  // Perform the MPC computation
-  // Modify this to fit the specifics of your MPC implementation
-  return mpc.compute(input, partyCount);
+  return null;
 }
